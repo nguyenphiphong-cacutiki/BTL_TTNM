@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, maximum-scale=1.0, initial-scale=1.0, shrink-to-fit=no, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <base href="" />
+    <meta name="google-site-verification" content="" />
+
+    <link href="../css/vendor.min.css?v=1.0.0" rel="stylesheet" />
+    <link href="../css/layout.css" rel="stylesheet" />
+    <link href="../css/media-screen.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <div class="container-fluid padding0">
+
+
+        <!-- BEGIN: Header -->
+        <!-- <header>
+            <nav class="nav">
+                <img src="../images/logo.png" alt="" class="img-logo">
+                <ul class="list-link">
+                    <li>
+                        <a href="../homepage.html">Trang chủ</a>
+                    </li>
+                    <li>
+                        <a href="">Sản phẩm</a>
+                    </li>
+                    <li>
+                        <a href="">Khuyến mãi</a>
+                    </li>
+                    <li>
+                        <a href="">Tham khảo</a>
+                    </li>
+                </ul>
+                <i>
+                    <a href="">
+                    <img src="../images/user.png" alt="" class="img-user">
+                    </a>
+                    <a href="">
+                        <img src="../images/cart.png" alt="" class="img-cart">
+                    </a>
+                </i>
+            </nav>
+        </header> -->
+        <header>
+            <nav class="nav">
+                <img src="../images/logo.png" alt="" class="img-logo">
+                <ul class="list-link nav">
+                    <li>
+                        <a href="../homepage.html">Trang chủ</a>
+                    </li>
+                    <li>
+                        <a href="">Sản phẩm</a>
+                    </li>
+                    <li>
+                        <a href="">Tin tức</a>
+                    </li>
+                    <form action="#">
+                        <div class="nav-items div-search nav justify-content-between align-items-center">
+                            <input id="search-product" class="nav-item" type="text" placeholder="Tìm kiếm sản phẩm...">
+                            <a class="nav-item" id="icon-search-product">
+                                <img src="./images/search.png" alt="" class="img-user img-fluid">
+                            </a>
+                        </div>
+                    </form>
+                </ul>
+                <i>
+                    <a href="">
+                        <img src="../images/user.png" alt="" class="img-user">
+                    </a>
+                    <a href="../cart-defaul.html">
+                        <img src="../images/cart.png" alt="" class="img-cart">
+                    </a>
+                </i>
+            </nav>
+        </header>
+        <!-- END: Header -->
+
+
+        <!-- BEGIN: Main -->
+        <main class=" overflow-hidden">
+            <section>
+                <span>
+                    TRANG CHỦ / SẢN PHẨM /
+                    <span class="text-cart"> GIỎ HÀNG</span>
+
+                </span>
+                <!-- <form action="#">
+                    <a href="../dissearch.html" class="icon-search">
+                        <img src="../images/search.png" alt="" class="img-fluid">
+                    </a>
+                    <label for="search">
+                        <input type="text" class="input-search" placeholder="Nhập tên sản phẩm" id="search">
+                        <button>Tìm kiếm</button>
+                    </label>
+                </form> -->
+            </section>
+           <section class="ship-infor">
+            <article>
+                <h4>THÔNG TIN GIAO HÀNG</h4>
+            </article>
+            <article class="list-input">
+                <label for="first-name">
+                    <input type="text" id="first-name" placeholder="Họ*">
+                    <span id="error-first-name" class="error"></span>
+                </label>
+                <label for="last-name">
+                    <input type="text" id="last-name" placeholder="Tên*">
+                    <span id="error-last-name" class="error"></span>
+                </label>
+                <label for="phone">
+                    <input type="text" id="phone" placeholder="Số điện thoại *">
+                    <span id="error-phone" class="error"></span>
+                </label>
+                <label for="city">
+                    <input type="text" id="city" placeholder="Tỉnh/Thành phố*">
+                    <span id="error-city" class="error"></span>
+                </label>
+                <label for="district">
+                    <input type="text" id="district" placeholder="Quận/Huyện *">
+                    <span id="error-district" class="error"></span>
+                </label>
+                <label for="ward">
+                    <input type="text" id="ward" placeholder="Phường/Xã *">
+                    <span id="error-ward" class="error"></span>
+                </label> 
+                <label for="address">
+                    <input type="text" id="address" placeholder="Số nhà, đường *">
+                    <span id="error-address" class="error"></span>
+                </label>
+                <label for="email">
+                    <input type="email" placeholder="Email" id="email">
+                </label>
+                <label for="note">
+                    <input type="text" placeholder="Ghi chú đơn hàng" id="note">
+                </label>
+                <span>(* là thông tin bắt buộc phải điền)</span>
+            </article>
+            <article class="method">
+                <div>
+                    <div class="title-method">
+                        <i>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-truck" viewBox="0 0 16 16">
+                                <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+                              </svg>
+                        </i>
+                        <span>Phương thức giao hàng</span>
+                        <span class="error-pay"></span>
+                    </div>
+                    <div>
+                        <input type="radio" name = "giaohang">
+                        <span>
+                            Giao hàng nhanh (
+                            <span class="text-pay">0 vnđ</span> 
+                            )
+                        </span>
+                        
+                    </div>
+                    <div>
+                        <input type="radio"  name = "giaohang">
+                        <span>
+                            Giao hàng tiết kiệm (
+                            <span class="text-pay">0 vnđ</span> 
+                            )
+                        </span>
+                        
+                    </div>
+                </div>
+                <div >
+                    <div class="title-method">
+                        <i>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-credit-card" viewBox="0 0 16 16">
+                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1H2zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7z"/>
+                                <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z"/>
+                              </svg>
+                        </i>
+                        <span>Phương thức thanh toán</span>
+                        <span class="error-method"></span>
+                    </div>
+                    <div>
+                        <label for="domestic">
+                            <input type="radio" id="domestic">
+                        <span>Thanh toán khi nhận hàng</span>
+                        </label>
+                        <br>
+                        <label for="inter">
+                            <input type="radio" id="inter">
+                        <span>Thanh toán bằng thẻ quốc tế hoặc nội địa (ATM)</span>
+                        </label>
+                    </div>
+                </div>
+            </article>
+           </section>
+           <section class="pay-detail">
+            <article>
+                <h4>CHI TIẾT THANH TOÁN</h4>
+            </article>
+            <article>
+                <img src="../images/aokhoacnam-1.png" alt="">
+                <div class="infor-product-pay">
+                    <div>
+                        <h6>Áo Khoác Nam</h6>
+                        <span>-Size:M</span>
+                    </div>
+                    <div>
+                        <h6>305.550 vnđ</h6>
+                        <span>x 1</span>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div>
+                    <h6>Tạm tính</h6>
+                    <h6>Giảm giá</h6>
+                    <h6>Phí vận chuyển</h6>
+                </div>
+                <div>
+                    <h6>305.550 vnđ</h6>
+                    <h6>0 vnđ</h6>
+                    <h6>0 vnđ</h6>
+                </div>
+            </article>
+            <article>
+                <h5>TỔNG CỘNG</h5>
+                <span>305.550 vnđ</span>
+            </article>
+            <article>
+                <button class="completed">
+                    <a class="link-completed">HOÀN TẤT ĐẶT HÀNG</a>
+                </button>
+            </article>
+           </section>
+        </main>
+        <!-- END: Main -->
+
+
+        <!-- BEGIN: Footer -->
+        <footer>
+            <section>
+                <article>
+                    <h3>Thông tin</h3>
+                    <ul>
+                        <li>
+                            <h6>Địa chỉ:</h6>
+                            <span>124 Bà Triệu, Hoàn Kiếm, <br>
+                                Ba Đình, Hà Nội</span>
+                        </li>
+                        <li>
+                            <h6>Điện thoại:</h6>
+                            <span>0333.000.333</span>
+                        </li>
+                        <li>
+                            <h6>Email:</h6>
+                            <span>Shop@aokhoac.com</span>
+                        </li>
+                    </ul>
+                </article>
+                <article>
+                    <h3>Hỗ trợ khách hàng</h3>
+                    <ul>
+                        <li><h6>Các câu hỏi thường gặp</h6> </li>
+                        <li><h6>Tra cứu đơn hàng</h6></li>
+                        <li><h6>Hệ thống của hàng </h6></li>
+                        <li><h6>Chính sách đổi hàng</h6></li>
+                        <li><h6>Chính sách giao hàng</h6></li>
+                    </ul>
+                </article>
+                <article>
+                    <h3>Kết nối với chúng tôi</h3>
+                    <ul>
+                        <li><h6>Thông tin công ty</h6></li>
+                        <li><h6>Điều khoản sử dụng</h6></li>
+                        <li><h6>Chính sách bảo mật</h6></li>
+                        <li><h6>Chính sách Cookie</h6></li>
+                    </ul>
+                </article>
+            </section>
+        </footer>
+        <!-- END: Footer -->
+
+
+    </div>
+    <script src="../js/vendor.min.js"></script>
+    <script src="../js/bill-infor.js"></script>
+</body>
+
+</html>

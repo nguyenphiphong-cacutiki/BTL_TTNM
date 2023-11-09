@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, maximum-scale=1.0, initial-scale=1.0, shrink-to-fit=no, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <base href="" />
+    <meta name="google-site-verification" content="" />
+
+    <link href="../css/vendor.min.css?v=1.0.0" rel="stylesheet" />
+    <link href="../css/layout.css" rel="stylesheet" />
+    <link href="../css/media-screen.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <div class="container-fluid padding0">
+
+
+        <!-- BEGIN: Header -->
+        <!-- <header>
+            <nav class="nav">
+                <img src="../images/logo.png" alt="" class="img-logo">
+                <ul class="list-link">
+                    <li>
+                        <a href="../homepage.html">Trang chủ</a>
+                    </li>
+                    <li>
+                        <a href="">Sản phẩm</a>
+                    </li>
+                    <li>
+                        <a href="">Khuyến mãi</a>
+                    </li>
+                    <li>
+                        <a href="">Tham khảo</a>
+                    </li>
+                </ul>
+                <i>
+                    <a href="">
+                    <img src="../images/user.png" alt="" class="img-user">
+                    </a>
+                    <a href="">
+                        <img src="../images/cart.png" alt="" class="img-cart">
+                    </a>
+                </i>
+            </nav>
+        </header> -->
+        <header>
+            <nav class="nav">
+                <img src="../images/logo.png" alt="" class="img-logo">
+                <ul class="list-link nav">
+                    <li>
+                        <a href="../homepage.html">Trang chủ</a>
+                    </li>
+                    <li>
+                        <a href="">Sản phẩm</a>
+                    </li>
+                    <li>
+                        <a href="">Tin tức</a>
+                    </li>
+                    <form action="#">
+                        <div class="nav-items div-search nav justify-content-between align-items-center">
+                            <input id="search-product" class="nav-item" type="text" placeholder="Tìm kiếm sản phẩm...">
+                            <a class="nav-item" id="icon-search-product">
+                                <img src="../images/search.png" alt="" class="img-user img-fluid">
+                            </a>
+                        </div>
+                    </form>
+                </ul>
+                <i>
+                    <a href="">
+                        <img src="../images/user.png" alt="" class="img-user">
+                    </a>
+                    <a href="../cart-defaul.html">
+                        <img src="../images/cart.png" alt="" class="img-cart">
+                    </a>
+                </i>
+            </nav>
+        </header>
+        <!-- END: Header -->
+
+
+        <!-- BEGIN: Main -->
+        <main class=" overflow-hidden">
+            <section>
+                <span>
+                    TRANG CHỦ / SẢN PHẨM /
+                    <span class="text-cart"> GIỎ HÀNG</span>
+
+                </span>
+                <!-- <form action="#">
+                    <a href="../dissearch.html" class="icon-search">
+                        <img src="../images/search.png" alt="" class="img-fluid">
+                    </a>
+                    <label for="search">
+                        <input type="text" class="input-search" placeholder="Nhập tên sản phẩm" id="search">
+                        <button>Tìm kiếm</button>
+                    </label>
+                </form> -->
+            </section>
+            <section class="infor-basket">
+                <article class="basket">
+                    <div>
+                        <span>
+                            <img src="../images/cart.png" alt="">
+                            Giỏ hàng
+                        </span>
+                        <button class="close-product">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="basket-product">
+                        <div>
+                            <img src="../images/aokhoacnam-1.png" alt="" >
+                        </div>
+                        <div>
+                            <h6>Áo khoác nam</h6>
+                            <p>-Giá: 305.550 vnđ</p>
+                            <p>-Size: 2XL</p>
+                            <div>
+                                <h5>Số lượng</h5>
+                                <form action="#">
+                                    <button class="minus btn-quanity">-</button>
+                                    <label for="numbers-product">
+                                        <input type="text" value="1" disabled="false" id="numbers-product">
+                                    </label>
+                                    <button class="add btn-quanity">+</button>
+                                </form>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </article>
+                <article class="order">
+                    <div>
+                        <i>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-journal" viewBox="0 0 16 16">
+                                <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"/>
+                                <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"/>
+                              </svg>
+                        </i>
+                        <span>ĐƠN HÀNG</span>
+                    </div>
+                    <div class="bill">
+                        <div>
+                            <h6>Đơn hàng</h6>
+                            <h6>Giảm</h6>
+                        </div>
+                        <div>
+                            <h6 id = "price">305.550 vnđ</h6>
+                            <h6>0 vnđ</h6>
+                        </div>
+                    </div>
+                    <div class="total">
+                        <span>TẠM TÍNH</span>
+                        <span id="total">305.550 vnđ</span>
+                    </div>
+                    <div class="btn-pay">
+                        <button>
+                            <a href="../list-sz-bill-information/bill-infor-sz2Xl.html">TIẾP TỤC THANH TOÁN</a>
+                        </button>
+                    </div>
+                </article>
+            </section>
+            <section class="back-homepage hidden-back-homepage">
+                <h2>Bạn chưa có sản phẩm nào trong giỏ hàng</h2>
+                <button>
+                    <a href="../homepage.html">Quay lại trang chủ</a>
+                </button>
+            </section>
+        </main>
+        <!-- END: Main -->
+
+
+        <!-- BEGIN: Footer -->
+        <footer>
+            <section>
+                <article>
+                    <h3>Thông tin</h3>
+                    <ul>
+                        <li>
+                            <h6>Địa chỉ:</h6>
+                            <span>124 Bà Triệu, Hoàn Kiếm, <br>
+                                Ba Đình, Hà Nội</span>
+                        </li>
+                        <li>
+                            <h6>Điện thoại:</h6>
+                            <span>0333.000.333</span>
+                        </li>
+                        <li>
+                            <h6>Email:</h6>
+                            <span>Shop@aokhoac.com</span>
+                        </li>
+                    </ul>
+                </article>
+                <article>
+                    <h3>Hỗ trợ khách hàng</h3>
+                    <ul>
+                        <li><h6>Các câu hỏi thường gặp</h6> </li>
+                        <li><h6>Tra cứu đơn hàng</h6></li>
+                        <li><h6>Hệ thống của hàng </h6></li>
+                        <li><h6>Chính sách đổi hàng</h6></li>
+                        <li><h6>Chính sách giao hàng</h6></li>
+                    </ul>
+                </article>
+                <article>
+                    <h3>Kết nối với chúng tôi</h3>
+                    <ul>
+                        <li><h6>Thông tin công ty</h6></li>
+                        <li><h6>Điều khoản sử dụng</h6></li>
+                        <li><h6>Chính sách bảo mật</h6></li>
+                        <li><h6>Chính sách Cookie</h6></li>
+                    </ul>
+                </article>
+            </section>
+        </footer>
+        <!-- END: Footer -->
+
+
+    </div>
+    <script src="../js/vendor.min.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/delete-product.js"></script>
+</body>
+
+</html>
