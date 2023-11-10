@@ -1013,7 +1013,48 @@ footer>div>ul:last-child{
     padding: 8px 90px;
     color: var(--white);
 }
-
+body{
+    position: relative;
+}
+.hiden_menu{
+    visibility: hidden !important;
+}
+.show_menu{
+    visibility: visible !important;
+}
+.menu3>img{
+    width: 180px;
+    height: 240px;
+}
+.menu_sanphan p b{
+    font-weight: bold;
+}
+.menubanchay{
+    display: block;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 4px 18px;
+    margin: 16px 0px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.menu2{
+    margin: 0 40px;
+}
+.menu_sanphan{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    visibility: hidden;
+    z-index: 1000;
+    position: absolute;
+    top: 54px;
+    float: right;
+    background-color: white;
+}
 .error {
     color: red !important;
     padding-top: 20px;
